@@ -1,4 +1,6 @@
+import 'package:abhinandan/Screens/drawer.dart';
 import 'package:abhinandan/colors.dart';
+import 'package:abhinandan/commonwidget/commoncontainer.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
@@ -43,7 +45,7 @@ class home extends StatelessWidget {
           ),
         ],
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -290,15 +292,125 @@ class home extends StatelessWidget {
                     ),
                   ),
                   16.heightBox,
+                  Container(
+                    height: 490,
+                    child: GridView.builder(
+                      physics: NeverScrollableScrollPhysics(),
+                      itemCount: 4,
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                          mainAxisExtent: 235,
+                          crossAxisSpacing: 20,
+                          mainAxisSpacing: 20,
+                          crossAxisCount: 2),
+                      itemBuilder: (context, index) {
+                        return commoncontatiner();
+                      },
+                    ),
+                  ),
+                  18.heightBox,
                   Row(
                     children: [
-                      Container(
-                        width: 160,
-                        height: 235,
-                        color: colors.button,
-                      )
+                      "Dairy Products"
+                          .text
+                          .size(16)
+                          .black
+                          .fontWeight(FontWeight.w600)
+                          .letterSpacing(0.50)
+                          .make(),
+                      10.widthBox,
+                      120.widthBox,
+                      "view more"
+                          .text
+                          .size(14)
+                          .color(Color(0xFF797979))
+                          .fontWeight(FontWeight.w600)
+                          .letterSpacing(0.50)
+                          .fontFamily('OpenSans')
+                          .make(),
+                      8.widthBox,
+                      Icon(
+                        Icons.arrow_forward_ios,
+                        color: Colors.grey,
+                      ),
                     ],
                   ),
+                  30.heightBox,
+                  Container(
+                    width: 360,
+                    height: 159,
+                    child: Image.asset(
+                      "assets/images/dairybanner.png",
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                  16.heightBox,
+                  Container(
+                    height: 490,
+                    child: GridView.builder(
+                      physics: NeverScrollableScrollPhysics(),
+                      itemCount: 4,
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                          mainAxisExtent: 235,
+                          crossAxisSpacing: 20,
+                          mainAxisSpacing: 20,
+                          crossAxisCount: 2),
+                      itemBuilder: (context, index) {
+                        return commoncontatiner();
+                      },
+                    ),
+                  ),
+                  18.heightBox,
+                  Row(
+                    children: [
+                      "Grocery"
+                          .text
+                          .size(16)
+                          .black
+                          .fontWeight(FontWeight.w600)
+                          .letterSpacing(0.50)
+                          .make(),
+                      10.widthBox,
+                      170.widthBox,
+                      "view more"
+                          .text
+                          .size(14)
+                          .color(Color(0xFF797979))
+                          .fontWeight(FontWeight.w600)
+                          .letterSpacing(0.50)
+                          .fontFamily('OpenSans')
+                          .make(),
+                      8.widthBox,
+                      Icon(
+                        Icons.arrow_forward_ios,
+                        color: Colors.grey,
+                      ),
+                    ],
+                  ),
+                  30.heightBox,
+                  Container(
+                    width: 360,
+                    height: 159,
+                    child: Image.asset(
+                      "assets/images/groceriesbanner.png",
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                  16.heightBox,
+                  Container(
+                    height: 490,
+                    child: GridView.builder(
+                      physics: NeverScrollableScrollPhysics(),
+                      itemCount: 4,
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                          mainAxisExtent: 235,
+                          crossAxisSpacing: 20,
+                          mainAxisSpacing: 20,
+                          crossAxisCount: 2),
+                      itemBuilder: (context, index) {
+                        return commoncontatiner();
+                      },
+                    ),
+                  ), //
                 ],
               ),
             ),

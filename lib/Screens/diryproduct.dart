@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:velocity_x/velocity_x.dart';
 
-class vegitableproduct extends StatefulWidget {
-  const vegitableproduct({super.key});
+class dairyproduct extends StatefulWidget {
+  const dairyproduct({super.key});
 
   @override
-  State<vegitableproduct> createState() => _vegitableproductState();
+  State<dairyproduct> createState() => _dairyproductState();
 }
 
-class _vegitableproductState extends State<vegitableproduct> {
+class _dairyproductState extends State<dairyproduct> {
   String? selectedValue;
   final List<String> items = [
     'In stock',
@@ -22,7 +22,7 @@ class _vegitableproductState extends State<vegitableproduct> {
         child: Scaffold(
             appBar: AppBar(
               centerTitle: true,
-              title: "Vegetables"
+              title: "Dairy Products"
                   .text
                   .color(Color(0xFF03030A))
                   .size(16)

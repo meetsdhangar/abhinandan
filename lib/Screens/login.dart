@@ -19,7 +19,7 @@ class login extends StatelessWidget {
           child: Column(
             children: [
               Image.asset(
-                "assets/images/Logo.png",
+                "assets/images/logo.png",
                 fit: BoxFit.contain,
               ),
               20.heightBox,

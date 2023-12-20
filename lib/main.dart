@@ -1,4 +1,9 @@
-import 'package:abhinandan/Screens/home.dart';
+import 'package:abhinandan/Screens/contactus.dart';
+import 'package:abhinandan/Screens/dairymilk.dart';
+import 'package:abhinandan/Screens/diryproduct.dart';
+import 'package:abhinandan/Screens/navigation.dart';
+import 'package:abhinandan/Screens/profileedit.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -16,9 +21,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
-        //fontFamily: 'OpenSans',
+        fontFamily: 'OpenSans',
       ),
-      home: home(),
+      home: dairymilk(),
     );
   }
 }

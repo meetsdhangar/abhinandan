@@ -1,3 +1,4 @@
+import 'package:abhinandan/Screens/orderconfirm.dart';
 import 'package:abhinandan/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -17,6 +18,31 @@ class mywallet extends StatelessWidget {
             .fontWeight(FontWeight.w600)
             .makeCentered(),
       ),
+      bottomSheet: BottomAppBar(
+        height: 60,
+        color: colors.button,
+        child: InkWell(
+          onTap: () {
+            Navigator.of(context).push(MaterialPageRoute(
+              builder: (context) => orderconfirm(),
+            ));
+          },
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              "Proceed To Buy: \₹73"
+                  .text
+                  .white
+                  .fontWeight(FontWeight.w600)
+                  .size(16)
+                  .letterSpacing(0.50)
+                  .make(),
+              Icon(Icons.arrow_forward, color: Colors.white)
+            ],
+          ),
+        ),
+      ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -34,7 +60,7 @@ class mywallet extends StatelessWidget {
                       .size(20)
                       .fontWeight(FontWeight.w400)
                       .make(),
-                  95.widthBox,
+                  90.widthBox,
                   "\$100"
                       .text
                       .color(Colors.black)

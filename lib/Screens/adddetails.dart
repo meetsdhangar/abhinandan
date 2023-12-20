@@ -86,6 +86,125 @@ class adddetails extends StatelessWidget {
                           borderSide: BorderSide(color: Color(0xff797979)))),
                 ),
               ),
+              24.heightBox,
+              "City"
+                  .text
+                  .size(14)
+                  .color(Color.fromRGBO(121, 121, 121, 1))
+                  .fontWeight(FontWeight.w600)
+                  .letterSpacing(0.25)
+                  .make(),
+              4.heightBox,
+              Container(
+                width: 330,
+                height: 44,
+                padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(4),
+                  color: Colors.white70,
+                  border: Border.all(color: Color(0xff797979), width: 1),
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    Icon(Icons.expand_more),
+                  ],
+                ),
+              ),
+              24.heightBox,
+              "Area"
+                  .text
+                  .size(14)
+                  .color(Color.fromRGBO(121, 121, 121, 1))
+                  .fontWeight(FontWeight.w600)
+                  .letterSpacing(0.25)
+                  .make(),
+              4.heightBox,
+              Container(
+                width: 330,
+                height: 44,
+                padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(4),
+                  color: Colors.white70,
+                  border: Border.all(color: Color(0xff797979), width: 1),
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    Icon(Icons.expand_more),
+                  ],
+                ),
+              ),
+              24.heightBox,
+              "Address"
+                  .text
+                  .size(14)
+                  .color(Color.fromRGBO(121, 121, 121, 1))
+                  .fontWeight(FontWeight.w600)
+                  .letterSpacing(0.25)
+                  .make(),
+              4.heightBox,
+              Container(
+                width: 330,
+                height: 121,
+                padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(4),
+                  color: Colors.white70,
+                  border: Border.all(color: Color(0xff797979), width: 1),
+                ),
+              ),
+              24.heightBox,
+              "Delivery Date"
+                  .text
+                  .size(14)
+                  .color(Color.fromRGBO(121, 121, 121, 1))
+                  .fontWeight(FontWeight.w600)
+                  .letterSpacing(0.25)
+                  .make(),
+              4.heightBox,
+              Container(
+                width: 330,
+                height: 44,
+                padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(4),
+                  color: Colors.white70,
+                  border: Border.all(color: Color(0xff797979), width: 1),
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    Icon(Icons.expand_more),
+                  ],
+                ),
+              ),
+              24.heightBox,
+              "Delivery Time Slot"
+                  .text
+                  .size(14)
+                  .color(Color.fromRGBO(121, 121, 121, 1))
+                  .fontWeight(FontWeight.w600)
+                  .letterSpacing(0.25)
+                  .make(),
+              4.heightBox,
+              Container(
+                width: 330,
+                height: 44,
+                padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(4),
+                  color: Colors.white70,
+                  border: Border.all(color: Color(0xff797979), width: 1),
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    Icon(Icons.expand_more),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
