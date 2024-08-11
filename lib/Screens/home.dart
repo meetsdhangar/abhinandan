@@ -77,12 +77,12 @@ class home extends StatelessWidget {
             ),
             12.heightBox,
             Padding(
-              padding: const EdgeInsets.only(left: 15, right: 15),
+              padding: const EdgeInsets.only(left: 10, right: 10),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
-                    width: 360,
+                    width: 370,
                     height: 159,
                     child: PageView(
                       children: [
@@ -147,9 +147,10 @@ class home extends StatelessWidget {
                       .make(),
                   15.heightBox,
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       Container(
-                        width: 117,
+                        width: 110,
                         height: 128,
                         decoration: ShapeDecoration(
                           shape: RoundedRectangleBorder(
@@ -173,9 +174,8 @@ class home extends StatelessWidget {
                           ],
                         ),
                       ),
-                      5.widthBox,
                       Container(
-                        width: 117,
+                        width: 110,
                         height: 128,
                         decoration: ShapeDecoration(
                           shape: RoundedRectangleBorder(
@@ -206,9 +206,8 @@ class home extends StatelessWidget {
                           ],
                         ),
                       ),
-                      5.widthBox,
                       Container(
-                        width: 117,
+                        width: 110,
                         height: 128,
                         decoration: ShapeDecoration(
                           shape: RoundedRectangleBorder(
@@ -240,13 +239,15 @@ class home extends StatelessWidget {
                   50.heightBox,
                   Row(
                     children: [
-                      "Vegitables"
-                          .text
-                          .size(16)
-                          .black
-                          .fontWeight(FontWeight.w600)
-                          .letterSpacing(0.50)
-                          .make(),
+                      Expanded(
+                        child: "Vegitables"
+                            .text
+                            .size(16)
+                            .black
+                            .fontWeight(FontWeight.w600)
+                            .letterSpacing(0.50)
+                            .make(),
+                      ),
                       10.widthBox,
                       Container(
                         width: 91,
@@ -266,7 +267,7 @@ class home extends StatelessWidget {
                             .white
                             .makeCentered(),
                       ),
-                      70.widthBox,
+                      50.widthBox,
                       "view more"
                           .text
                           .size(14)
@@ -275,7 +276,6 @@ class home extends StatelessWidget {
                           .letterSpacing(0.50)
                           .fontFamily('OpenSans')
                           .make(),
-                      8.widthBox,
                       Icon(
                         Icons.arrow_forward_ios,
                         color: Colors.grey,
@@ -310,15 +310,15 @@ class home extends StatelessWidget {
                   18.heightBox,
                   Row(
                     children: [
-                      "Dairy Products"
-                          .text
-                          .size(16)
-                          .black
-                          .fontWeight(FontWeight.w600)
-                          .letterSpacing(0.50)
-                          .make(),
-                      10.widthBox,
-                      120.widthBox,
+                      Expanded(
+                        child: "Dairy Products"
+                            .text
+                            .size(16)
+                            .black
+                            .fontWeight(FontWeight.w600)
+                            .letterSpacing(0.50)
+                            .make(),
+                      ),
                       "view more"
                           .text
                           .size(14)
@@ -327,7 +327,6 @@ class home extends StatelessWidget {
                           .letterSpacing(0.50)
                           .fontFamily('OpenSans')
                           .make(),
-                      8.widthBox,
                       Icon(
                         Icons.arrow_forward_ios,
                         color: Colors.grey,
@@ -362,15 +361,15 @@ class home extends StatelessWidget {
                   18.heightBox,
                   Row(
                     children: [
-                      "Grocery"
-                          .text
-                          .size(16)
-                          .black
-                          .fontWeight(FontWeight.w600)
-                          .letterSpacing(0.50)
-                          .make(),
-                      10.widthBox,
-                      170.widthBox,
+                      Expanded(
+                        child: "Grocery"
+                            .text
+                            .size(16)
+                            .black
+                            .fontWeight(FontWeight.w600)
+                            .letterSpacing(0.50)
+                            .make(),
+                      ),
                       "view more"
                           .text
                           .size(14)

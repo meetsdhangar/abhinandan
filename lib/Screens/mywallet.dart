@@ -53,6 +53,7 @@ class mywallet extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.all(18),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   "Balance Amount"
                       .text
@@ -60,7 +61,6 @@ class mywallet extends StatelessWidget {
                       .size(20)
                       .fontWeight(FontWeight.w400)
                       .make(),
-                  90.widthBox,
                   "\$100"
                       .text
                       .color(Colors.black)

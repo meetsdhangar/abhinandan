@@ -4,7 +4,7 @@ import 'package:velocity_x/velocity_x.dart';
 
 commoncontatiner() {
   return Container(
-    width: 160,
+    width: 150,
     height: 235,
     decoration: ShapeDecoration(
       shape: RoundedRectangleBorder(
@@ -56,7 +56,7 @@ commoncontatiner() {
                       .fontWeight(FontWeight.w600)
                       .letterSpacing(0.50)
                       .make(),
-                  10.widthBox,
+                  8.widthBox,
                   "₹40"
                       .text
                       .size(12)

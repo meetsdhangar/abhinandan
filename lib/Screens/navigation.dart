@@ -1,7 +1,6 @@
-import 'package:abhinandan/Screens/adddetails.dart';
 import 'package:abhinandan/Screens/checkout.dart';
 import 'package:abhinandan/Screens/home.dart';
-import 'package:abhinandan/Screens/login.dart';
+
 import 'package:abhinandan/Screens/mywallet.dart';
 import 'package:abhinandan/Screens/search.dart';
 import 'package:abhinandan/Screens/vegitableproduct.dart';

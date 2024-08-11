@@ -1,8 +1,4 @@
-import 'package:abhinandan/Screens/contactus.dart';
-import 'package:abhinandan/Screens/dairymilk.dart';
-import 'package:abhinandan/Screens/diryproduct.dart';
 import 'package:abhinandan/Screens/navigation.dart';
-import 'package:abhinandan/Screens/profileedit.dart';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -23,21 +19,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         fontFamily: 'OpenSans',
       ),
-      home: dairymilk(),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(),
+      home: navigation(),
     );
   }
 }

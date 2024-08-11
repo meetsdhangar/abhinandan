@@ -58,18 +58,18 @@ class _vegitableproductState extends State<vegitableproduct> {
                   Row(
                     children: [
                       Container(
-                          width: 290,
-                          height: 50,
-                          decoration: ShapeDecoration(
-                            color: Colors.white,
-                            shape: RoundedRectangleBorder(
-                              side: BorderSide(
-                                  width: 2, color: Color(0xFFD6D6D6)),
-                              borderRadius: BorderRadius.circular(4),
-                            ),
+                        width: 270,
+                        height: 50,
+                        decoration: ShapeDecoration(
+                          color: Colors.white,
+                          shape: RoundedRectangleBorder(
+                            side:
+                                BorderSide(width: 2, color: Color(0xFFD6D6D6)),
+                            borderRadius: BorderRadius.circular(4),
                           ),
-                          child: DropdownButtonHideUnderline(
-                              child: DropdownButton<String>(
+                        ),
+                        child: DropdownButtonHideUnderline(
+                          child: DropdownButton<String>(
                             isExpanded: true,
                             hint: const Row(
                               children: [
@@ -110,8 +110,10 @@ class _vegitableproductState extends State<vegitableproduct> {
                                 selectedValue = value;
                               });
                             },
-                          ))),
-                      20.widthBox,
+                          ),
+                        ),
+                      ),
+                      10.widthBox,
                       Container(
                         height: 50,
                         width: 50,
