@@ -58,7 +58,8 @@ class home extends StatelessWidget {
                 child: TextField(
                   decoration: InputDecoration(
                     filled: true,
-                    fillColor: Colors.white,
+                    //fillColor: Colors.white,
+
                     contentPadding: EdgeInsets.only(top: 13, bottom: 13),
                     hintText: "Search Products...",
                     prefixIcon: Icon(Icons.search),
