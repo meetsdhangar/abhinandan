@@ -1,5 +1,6 @@
 import 'package:abhinandan/Screens/category.dart';
 import 'package:abhinandan/Screens/home.dart';
+import 'package:abhinandan/Screens/navigation.dart';
 import 'package:abhinandan/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -55,7 +56,7 @@ class login extends StatelessWidget {
               InkWell(
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(
-                    builder: (context) => category(),
+                    builder: (context) => navigation(),
                   ));
                 },
                 child: Container(

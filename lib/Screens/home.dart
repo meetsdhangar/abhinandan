@@ -2,7 +2,7 @@ import 'package:abhinandan/Screens/drawer.dart';
 import 'package:abhinandan/colors.dart';
 import 'package:abhinandan/commonwidget/commoncontainer.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:velocity_x/velocity_x.dart';
 
